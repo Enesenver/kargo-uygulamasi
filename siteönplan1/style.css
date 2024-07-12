@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(235, 235, 235);
+}
+    .navbar-brand {
+        color: #3baf29;
+        font-family: Cursive;
+        font-weight: bold;
+    }
+    .btn-custom {
+        text-decoration: none;
+        color: #3baf29;
+    }
+    .navbar {
+        border-bottom: 2px black solid;
+    }
