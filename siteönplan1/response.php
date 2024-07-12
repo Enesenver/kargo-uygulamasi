@@ -35,14 +35,14 @@ if (isset($_GET['ilan_id']) && isset($_GET['response']) && isset($_GET['musteri_
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'eekinci871@gmail.com';
-    $mail->Password = 'nfkg cllb npao jzdh';
+    $mail->Username = '@gmail.com';
+    $mail->Password = '';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
     $mail->CharSet = "UTF-8";
     $mail->SMTPDebug = 0;
 
-    $mail->setFrom("eekinci871@gmail.com", "Rezervasyon Sistemi");
+    $mail->setFrom("@gmail.com", "Rezervasyon Sistemi");
     $mail->addAddress($musteri_email); // Müşterinin e-posta adresi
 
     $mail->Subject = 'Rezervasyon Durumu';

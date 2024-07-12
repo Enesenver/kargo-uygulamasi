@@ -12,14 +12,14 @@ function sendMail($ilan_id, $ilan_eposta) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'eekinci871@gmail.com';
-        $mail->Password   = 'nfkg cllb npao jzdh';
+        $mail->Username   = '@gmail.com';
+        $mail->Password   = '';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
         $mail->CharSet    = "UTF-8";
 
         // Recipients
-        $mail->setFrom('eekinci871@gmail.com', 'eekinci871@gmail.com');
+        $mail->setFrom('@gmail.com', '@gmail.com');
         $mail->addAddress($ilan_eposta);
 
         // Content
